@@ -61,7 +61,7 @@ async function sendDiscordMessageFor(vercelEvent: VercelWebhookEvent) {
     const discordMessage = {
         content: null,
         username: 'Vercel Bot',
-        avatar_url: 'https://vercel.com/favicon.ico',
+        // avatar_url: 'https://vercel.com/favicon.ico',
         embeds: [{
             title: `Deployment of ${name} in ${gitBranch.toUpperCase()}: ${state}.`,
             url: deploymentDashboardUrl,
